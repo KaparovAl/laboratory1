@@ -5,8 +5,11 @@
 
 int main()
 {
+    char symbol;
     std::cout << "Hello World!\n";
-    
+    std::cout << "Input Symbol for me : ";
+    std::cin >> symbol;
+    return 0;
 
 }
 
